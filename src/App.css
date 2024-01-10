@@ -1,0 +1,67 @@
+body{
+  background-color: black;
+}
+.App {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: rgb(32, 37, 39);
+  color: white;
+
+}
+footer{
+  color: white;
+}
+.nav-links{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+.latest{
+margin: 30px;
+text-align: left;
+
+
+
+}
+.animelatest{
+ width: 30%;
+  margin: 10px;
+}
+.animelatest img{
+  width: 250px;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+.aside{
+  min-width: 30%;
+  order: 2;
+}
+.page{
+  width: 70%;
+}
+.aside{
+  color: white;
+  position: absolute;
+  right: 0%;
+  width: 15%;
+  background-color: black;
+}
+.aside img{
+  margin: 6%;
+  width: 80%;
+  border-radius: 50%;
+ 
+}
